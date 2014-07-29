@@ -1,0 +1,23 @@
+{
+  "name": "Simple Alarm Clock",
+  "version": "1.0",
+  "description": "A clock with three configurable alarms.",
+  "permissions": [ "background", "tts" ],
+
+  "background": { "scripts": ["common.js", "background.js"] },
+
+  "browser_action": {
+    "default_icon": "clock-19.png",
+    "default_title": "Simple Alarm Clock",
+    "default_popup": "popup.html"
+  },
+
+  "icons": {
+    "16": "clock-16.png",
+    "48": "clock-48.png",
+    "128": "clock-128.png",
+    "256": "clock-256.png"
+  },
+
+  "manifest_version": 2
+}
